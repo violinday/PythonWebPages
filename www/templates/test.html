@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Users Python web app</title>
+</head>
+<body>
+    <h1>All User</h1>
+    {% for u in users %}
+    <p>{{u.name}} / {{u.email}}</p>
+    {% endfor %}
+</body>
+</html>
